@@ -1,0 +1,9 @@
+Workplan
+--------
+
+	05/04/2016
+
+	* Create 3 test users in sendBox and 2 test items
+	* Search about building python server and using eBay API or connecting it with PHP application
+	* Complete the php tutorial in Trading API
+	* Complete the task of Getting user comments
