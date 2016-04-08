@@ -6,6 +6,7 @@
 
 var appID = 'xxx';
 var sellerName = 'dealsbuy2015';
+var authToken = 'AAAAAA000000SOMETOKEN00000000AAAAAAAAAAAA';
 
 console.log('eBay APP ID : '+appID);
 console.log('current seller name : '+sellerName);
@@ -14,9 +15,9 @@ var inputData = '' +
 '<?xml version="1.0" encoding="utf-8"?>' +
 '<GetFeedbackRequest xmlns="urn:ebay:apis:eBLBaseComponents">' +
   '<RequesterCredentials>' +
-    '<eBayAuthToken>ABC...123</eBayAuthToken>' +
+    '<eBayAuthToken>'+authToken+'</eBayAuthToken>' +
   '</RequesterCredentials>' +
-  '<UserID>magicalbookseller</UserID>' +
+  '<UserID>'+sellerName+'</UserID>' +
   '<DetailLevel>ReturnAll</DetailLevel>' +
 '</GetFeedbackRequest>';
 

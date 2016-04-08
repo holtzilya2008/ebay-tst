@@ -4,6 +4,14 @@ Workplan
 	05/04/2016
 
 	* Create 3 test users in sendBox and 2 test items
-	* Search about building python server and using eBay API or connecting it with PHP application
-	* Complete the php tutorial in Trading API
+	* Search about building python server 
+	DONE Starting Simple Python server that support POST 
+	DONE Test eBay GedFeedBack API Call with 200 Comments via eBay test tool
+	* Make the same API call as tested above using python web server via python script
 	* Complete the task of Getting user comments
+
+
+	Should practice
+	* Writing my own http Server in Python
+	* Writing client-side in python and sending requests
+	* Complete the php tutorial in Trading API
