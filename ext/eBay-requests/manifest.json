@@ -1,0 +1,18 @@
+{
+  "name": "eBay-Request",
+  "description": "GET and POST requests to python server",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Make this page red",
+    "default_popup": "popup.html",
+    "default_icon": "sp.png"
+  },
+  "manifest_version": 2
+}
