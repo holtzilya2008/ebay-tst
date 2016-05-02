@@ -1,0 +1,5 @@
+!) Each user will decide if he want to allow us on eBay. 
+	if true: we will use his token
+	else: we will use one generic token (to see feedback etc...)
+
+2) 
